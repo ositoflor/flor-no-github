@@ -4,36 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Formulario</title>
+    <meta name="description" content="flawer weed" />
+    <meta name="author" content="Florzito" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js" ></script>
+    <title>Formularios</title>
 </head>
 <body>
-    <div id="container">
-        <div>
-            <h2>Cadastro</h2>
-            <form action="">
-                
-                <label for="name-input">Primeiro Nome</label>
-                <input type="text" name="primeironome" id="name-input" required="">
-                
-                <label for="sname-input">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sname-input">
-                
-                <label for="cpf-input">CPF</label>
-                <input type="tel" autocomplete="on" name="cpf" id="cpf-input"  mask="___.___.___-__" placeholder="Ex: 123.456.789-12" required="">
-
-                <label for="email-input">E-mail</label>
-                <input type="email" autocomplete="on" placeholder="Ex. joaodasilva@gmail.com" name="email" id="email-input" required="">
-                
-                <label for="phone-input">Telefone</label>
-                <input type="tel" autocomplete="on"name="phone" id="phone-input" mask="(__) _____-____" placeholder="Ex: (99) 99999-9999">
-                
-                <label for="password-input">Senha</label>
-                <input type="password" autocomplete="false" name="password" id="password-input"  required="" >
-
-               <input type="submit" value="criar seu cadastro">
-            </form>
+    <!-- Cabeçalho -->
+    <header>
+        <div id="conteiner">
+            <div id="conteiner-cont">
+                <div class="logo-hiring">
+                    <img src="./img/logohiring.png" alt="logo hiring" height="35px" width="177px">
+                </div>
+            </div>
         </div>
-    </div>
+
+    </header>
+    <!-- Fim Do Cabeçalho -->
+
+    <!-- Conteudo Principal -->
+    <main>
+        <div class="titulo">
+            <h1>Curso Hiring Coders</h1>
+        </div>
+        <div class="cont">
+            <h3>Iniciando aulas da Hiring Coders</h3>
+            <p>A Seguir veremos telas que foram feitas acompanhando todas as <br>aulas do curso da Hiring Coders, <br>
+                clique no botão “Iniciar” para partir para as próximas telas, <br>em cada tela terá um botão de seguir e voltar para o início. 
+            </p>
+        </div>
+        <div id="botaoinicar">
+            <a href="./formulario.html" id="btninicar">Iniciar</a>
+        </div>
+    </main>
+    <!-- Fim do Conteudo Principal -->
+
+    <!--Rodapé-->
+    <footer>
+        <div id="rodape">
+            <div class="copy">
+                <p>Copyright (©) FlowerTech, 2021.</p>
+            </div>
+        </div>
+    </footer>
+    <!--Fim o rodapé-->
+
 </body>
 </html>
