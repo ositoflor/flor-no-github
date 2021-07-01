@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Formulario</title>
 </head>
 <body>
@@ -14,15 +15,20 @@
                 
                 <label for="name-input">Primeiro Nome</label>
                 <input type="text" name="primeironome" id="name-input" required="">
+                
                 <label for="sname-input">Sobrenome</label>
                 <input type="text" name="sobrenome" id="sname-input">
+                
                 <label for="cpf-input">CPF</label>
                 <input type="tel" autocomplete="on" name="cpf" id="cpf-input"  mask="___.___.___-__" placeholder="Ex: 123.456.789-12" required="">
 
-                <label class="inputGroup-label" for="email-input">E-mail</label>
+                <label for="email-input">E-mail</label>
                 <input type="email" autocomplete="on" placeholder="Ex. joaodasilva@gmail.com" name="email" id="email-input" required="">
+                
+                <label for="phone-input">Telefone</label>
                 <input type="tel" autocomplete="on"name="phone" id="phone-input" mask="(__) _____-____" placeholder="Ex: (99) 99999-9999">
-                <label class="inputGroup-label" for="password-input">Senha</label>
+                
+                <label for="password-input">Senha</label>
                 <input type="password" autocomplete="false" name="password" id="password-input"  required="" >
 
                <input type="submit" value="criar seu cadastro">
