@@ -4,8 +4,7 @@ body {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.2px;
-    padding: 0px;
-    height: 100%;
+    width: 100%;
 }
 
 /* Top*/
@@ -36,19 +35,43 @@ body {
 /* Começo conteudo */
 
 main {
-    margin-left: 80px;
-    width: 60%;
-    margin-bottom: 20px;
+    background-image: url(https://uploads-ssl.webflow.com/5f2d50967d364984a023dc4c/6092fbd604ec85536008759c_Ilustra-Header---Hiring-Coders.gif);
+    padding-top: 100px;
+    padding-left: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 500px;
 }
 
-.titulo {
-    margin-top: 100px;
+/* Parte Formulario */
+
+#formulario {
+    padding: 20px;
 }
 
-.cont {
-    margin-top: 50px;
+p {
+    line-height: 30px;
+    margin-top: 20px;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+#conteudo {
+    width: 50%;
+    padding: 10px;
+    margin-left: 50px;
+    color: #fff;
+}
 
 #botaoinicar {
     background-color: #de1b79;
@@ -56,13 +79,12 @@ main {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    border: none;
     padding: 10px;
     border-radius: 50px;
-    height: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     height: 20px;
     cursor: pointer;
+    display: inline-block;
 }
 
 #botaoinicar a {
@@ -78,15 +100,14 @@ main {
     /* Rodapé */
 
 #rodape {
-    background-color: #152742;
-    flex-shrink: 0;
-    padding: 30px;
+    background-color:#152742;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .copy {
-    text-align:center ;
-    font-weight: bold;
     color: #fff;
-    font-size: 12px;
-    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
 }
